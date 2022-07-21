@@ -122,7 +122,7 @@ repositories { //all of these are for adding crates compat
 }
 
 tasks.withType(JavaCompile) {
-    source(project(":Common").sourceSets.main.allSource)
+   // source(project(":Common").sourceSets.main.allSource)
 }
 
 processResources {
